@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import math
 
-modelo = YOLO(r"runs\pose\train-2\weights\best.pt")
+modelo = YOLO(r"runs\pose\train\weights\best.pt")
 cap = cv2.VideoCapture(0)
 
 # --- CONFIGURAÇÕES ---
